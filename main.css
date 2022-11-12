@@ -1,0 +1,47 @@
+* {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+section[class='init'] {
+  padding: 20px;
+  background-color: rgb(132, 240, 180);
+}
+
+div[class='init_lng'] {
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+
+div[class='init_lang_switch'] {
+  width: 100;
+  height: 1000;
+  padding: 10px;
+  text-align: right;
+//  transition: background 0.25s ease;
+  cursor: pointer;
+}
+
+div {
+  padding: 20px;
+  text-align: justify;
+  text-indent: 15 px;
+}
+
+button {
+  font-size: 20px;
+  color: #fff;
+  background-color: #4075a1;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+/*  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);*/
+  padding: 15px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1e38aa;
+/*  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);*/
+}
