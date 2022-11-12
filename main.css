@@ -3,9 +3,21 @@
   font-size: 20px;
 }
 
+header {
+  content-visibility: hidden;
+}
+
+section {
+  content-visibility: hidden;
+}
+
+footer {
+  content-visibility: hidden;
+}
+
 section[class='init'] {
   padding: 20px;
-  background-color: rgb(132, 240, 180);
+  background-color: rgb(190, 240, 132);
 }
 
 div[class='init_lng'] {
@@ -19,7 +31,6 @@ div[class='init_lang_switch'] {
   height: 1000;
   padding: 10px;
   text-align: right;
-//  transition: background 0.25s ease;
   cursor: pointer;
 }
 
@@ -36,12 +47,10 @@ button {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-/*  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);*/
   padding: 15px;
   transition: background-color 0.2s ease;
 }
 
 button:hover {
   background-color: #1e38aa;
-/*  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);*/
 }
