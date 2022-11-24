@@ -1,28 +1,86 @@
 * {
   font-family: 'Philosopher', sans-serif;
   font-size: 20px;
+  box-sizing: border-box;
 }
+
+/* a {
+  text-decoration: none;
+}
+ */
 
 header {
   content-visibility: hidden;
 }
 
-section {
+div[class='header'] {
+  color: white;
+  background-color: #4075a1;
+ }
+
+/* div[class='scroll_to_top'] {
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: opacity 0.3s;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  right: 75px;
+  bottom: 55px;
+  z-index: 995;
+  cursor: pointer;
+  opacity: 1;
+  background-position: center 14px;
+  background-color: #4075a1;
+}
+ */
+ footer {
   content-visibility: hidden;
 }
 
-footer {
-  content-visibility: hidden;
+ div[class='footer'] {
+  color: white;
+  background-color: #4075a1;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px;
+ }
+
+div[class='header_container'] {
+  display: flex;
+  background-color: #4075a1;
+/*  width: 100vw;
+   justify-content: left;
+   justify-items: flex-start;
+*/
 }
+
+ section {
+  content-visibility: hidden;
+/*   background-color: lemonchiffon;
+ */}
 
 section[class='init'] {
   padding: 20px;
-  background-color: rgb(190, 240, 132);
+  background-image: linear-gradient(white, gray);
+}
+
+div[class='init'] {
+  background-color: inherit;
+  background-image: none;
 }
 
 div[class='init_lng'] {
   display: flex;
   justify-content: right;
+  background-color: inherit;
+  background-image: none;
   padding: 20px;
 }
 
@@ -30,6 +88,8 @@ div[class='init_lang_switch'] {
   width: 100;
   height: 1000;
   padding: 10px;
+  background-color: inherit;
+  background-image: none;
   text-align: right;
   cursor: pointer;
 }
